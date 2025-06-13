@@ -1,0 +1,88 @@
+/* Container for the entire home section */
+.home-container {
+  min-height: 100vh;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #d3d3d3, #4f4f4f);
+}
+
+/* Content wrapper: image + text side by side */
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1180px;
+  width: 100%;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Image container */
+.image-wrapper {
+  flex: 0 0 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image styling */
+.profile-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Text block */
+.home-text {
+  flex: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Miracles Autom", sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Fix animation height to avoid layout shifts */
+.animated-text {
+  display: inline-block;
+  min-height: 40px; /* Adjust based on tallest line */
+  min-width: 200px;  /* Optional: avoids width shifting */
+  white-space: nowrap;
+}
+
+/* Highlighted name */
+.highlight {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* CTA button section */
+.cta-section {
+  margin-top: 20px;
+}
+
+.view-my-work-btn {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.view-my-work-btn:hover {
+  background-color: #d35a5a;
+}

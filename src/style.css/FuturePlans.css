@@ -1,0 +1,50 @@
+.future-plans-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Miracles Autom", sans-serif;
+  color: #000000;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.future-plans-container h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #5351b6; /* green color */
+}
+
+.future-plans-container .intro-description {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000000;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.plan-card {
+  background-color: #f0f4f8;
+  padding: 1.5rem;
+  border-left: 5px solid #5351b6;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.plan-card:hover {
+  background-color: #e2eff0;
+}
+
+.plan-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
+
+.plan-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: normal;
+  color: #000000;
+}
+

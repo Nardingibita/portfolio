@@ -1,0 +1,119 @@
+.navbar {
+  padding: 10px 30px;
+  position: relative;
+  font-family: "Miracles Autom", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #161515;
+  box-sizing: border-box; 
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  overflow-x: hidden; 
+}
+
+.navbar-logo {
+  font-size: 60px;
+  font-weight: bolder;
+  font-family: "Miracles Autom";
+  background: linear-gradient(to right, rgb(90, 96, 173), rgb(45, 64, 170));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+  
+ 
+  .hamburger {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 2rem;
+    color: rgb(253, 251, 251);
+    z-index: 1001;
+    position: absolute;
+    right:60;
+    top: 20px;
+  }
+  
+ 
+  .mobile-menu {
+    display: none;
+    flex-direction: column;
+    position: fixed; 
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 1rem 0;
+    z-index: 999;
+    width: 100%;
+    max-width: 100vw;
+    font-size: 1.3rem; 
+  font-weight: bold;
+  }
+  
+ 
+  .mobile-menu.open {
+    display: flex;
+  }
+  
+ 
+  .mobile-menu a {
+    color: rgb(3, 3, 3);
+    padding: 0.8rem 1rem; 
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  
+ 
+  .desktop-menu {
+    display: none;
+    align-items: center;
+  }
+  
+  .desktop-menu a {
+    color: rgb(250, 248, 248);
+    margin-left: 3.5rem;
+    text-decoration: none;
+    font-weight:bolder;
+    font-size: 20px;
+    font-family: "Miracles Autom", sans-serif;
+    padding: 1.5rem 1;
+  }
+  
+ 
+  .desktop-menu a:hover,
+  .mobile-menu a:hover {
+    color: #40429b;
+  }
+  
+ 
+  @media (min-width: 768px) {
+    .hamburger {
+      display: none; 
+    }
+  
+    .mobile-menu {
+      display: none !important; 
+    }
+  
+    .desktop-menu {
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+            width: 100%; 
+          }
+    }
+  
+  

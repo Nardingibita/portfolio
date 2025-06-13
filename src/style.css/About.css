@@ -1,0 +1,85 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.about-container {
+ padding: 40px 20px;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #d3d3d3, #4f4f4f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  box-sizing: border-box;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1180px;
+  width: 100%;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.about-image-wrapper {
+  flex: 0 0 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-profile-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-text {
+  flex: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: "Miracles Autom";
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.cta-section {
+  margin-top: 20px;
+  position: relative;
+}
+
+.view-my-work-btn {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+  gap: 20px;
+}
+
+.view-my-work-btn:hover {
+  background-color: #4d93f0;
+}
+

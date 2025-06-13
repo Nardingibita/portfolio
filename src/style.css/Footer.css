@@ -1,0 +1,39 @@
+.footer-container {
+    color: rgb(0, 0, 0);
+    padding: 0;
+    text-align: center;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .footer-container p {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .social-icons a {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #0307df; 
+  }
+  
+  .footer-text {
+    font-size: 15px;
+    color: #000000;
+    margin-top: 10px;
+  }
+  

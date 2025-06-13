@@ -15,7 +15,7 @@ import Footer from './Components/Footer.jsx';
 
 function App() {
   return (
-    <Router>
+<Router basename="/ibitaportfolio">
       <div>
         <Navbar />
         <Routes>
